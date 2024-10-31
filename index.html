@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>TO-DO List</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <div id="todo-container">
+      <div id="header">
+        <h1>To Do List</h1>
+      </div>
+      <div id="todo-form">
+        <input
+          type="text"
+          class="input-item input-box"
+          name="input_box"
+          id="inputField"
+          placeholder="Add Task"
+        />
+        <button id="input-button" onclick="addtodo()">Add</button>
+        <button id="input-button" onclick="deleteAllItems()">Delete All</button>
+      </div>
+      <h2>Task List</h2>
+      <ul id="list"></ul>
+    </div>
+
+</body>
+    <script type="text/javascript" src="app.js"></script>
+</html>
